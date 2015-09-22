@@ -21,7 +21,7 @@ success: function (result) {
     console.log(result);
     var pas=result[0];
      var pass=result[14];
-   // alert(pas+'pas');
+   // alert(pas+'pas'); 
       // alert(pass+'pass');
           if(pas == '' &&  pass == ''){
     alert('username or password entered is invalid');
